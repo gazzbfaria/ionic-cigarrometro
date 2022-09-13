@@ -1,10 +1,32 @@
 ion-content{
+  --background:#CBCCB6;
   text-align: center;
   --padding-top: 24px;
   --padding-start: 24px;
   --padding-end: 24px;
+  img{
+    height: 150px;
+  }
 }
 
 ion-item{
   margin: 16px 0;
+  border: 1px solid black;
+  border-radius: 9px;
+}
+
+
+ion-button{
+  --background:#cf3c4f;
+  
+}
+
+#tempoPerdido{
+  margin-top: 15px;
+  margin-left: 55px;
+  background-color: white;
+  padding: 5px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 9px;
 }
